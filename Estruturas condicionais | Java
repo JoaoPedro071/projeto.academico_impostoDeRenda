@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Insira seu salário mensal: ");
+        double salariomensal = sc.nextDouble();
+        if (salariomensal <= 5000.00) {
+            System.out.println("Isento de imposto de renda!");
+        }
+        else if (salariomensal > 5000.00 && salariomensal <= 6500.00) {
+            double imposto1 = (salariomensal * 0.075);
+            System.out.println("Imposto sobre a renda: 7,5%.");
+            System.out.println("Valor de imposto a ser pago: " + imposto1);
+        }
+        else if (salariomensal > 6500.00 && salariomensal <= 8000.00) {
+            double imposto2 = (salariomensal * 0.15);
+            System.out.println("Imposto sobre a renda: 15%.");
+            System.out.println("Valor de imposto a ser pago: " + imposto2);
+        }
+        else if (salariomensal > 8000.00 && salariomensal <= 10000.00) {
+            double imposto3 = (salariomensal * 0.225);
+            System.out.println("Imposto sobre a renda: 22,5%.");
+            System.out.println("Valor de imposto a ser pago: " + imposto3);
+        }
+        else {
+            double imposto4 = (salariomensal * 0.275);
+            System.out.println("Imposto sobre a renda: 27,5%.");
+            System.out.println("Valor de imposto a ser pago: " + imposto4);
+        }
+    }
+}
