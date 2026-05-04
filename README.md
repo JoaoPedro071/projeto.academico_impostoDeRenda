@@ -1,6 +1,3 @@
-Aqui está um modelo de **README.md** com uma estrutura mais profissional e visualmente agradável para publicar no GitHub:
-
-```markdown
 #  Calculadora de Imposto de Renda
 
 Este projeto é uma aplicação simples em **Java** que calcula o valor do imposto de renda a ser pago com base no salário mensal informado pelo usuário.  
